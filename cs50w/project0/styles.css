@@ -65,3 +65,35 @@ a {
 .margin {
     margin: 50px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left {
+    width: 200px;
+}
+
+.right {
+    width: 300px;
+}
+.p {
+    font-size: 14px;
+}
+
+.btn-adv {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid rgb(15, 76, 172);
+    color: white;
+    padding: 12px;
+    margin: 10px;
+}
+.btn-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 30px;
+}
